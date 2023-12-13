@@ -4,11 +4,21 @@
     box-sizing: border-box;
     
     font-family: sans-serif;
-    border: black 2px dotted;
+    /* border: black 2px dotted; */
 }
 
 .main-container{
     width: 100%;
+}
+
+button{
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 15px 15px;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 .box{
@@ -25,6 +35,7 @@
     margin-right: auto;
 }
 
+
 /* start nav bar */
 nav{
     height: 85px;
@@ -33,17 +44,17 @@ nav{
     padding-top: 17px;
     padding-bottom: 17px;
 
-    background-color: #add8e6;
+    background-color: #255ee9;
 }
 
 nav div.nav-row{
     height: 50px;
     /* test */
 
-    background-color: #daa520;
 }
 
-nav div .logo{
+.logo{
+    padding-top: 8px;
     min-width: 250px;
 
     text-align: start;
@@ -64,10 +75,10 @@ nav div ul{
 
 ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-nav div .login{
+.login{
     min-width: 250px;
 
     text-align: end;
@@ -80,7 +91,8 @@ header{
     justify-content: center;
     align-items: center;
 
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 header .header{
