@@ -36,6 +36,16 @@ button{
     background-color: #8ea1e1;
 }
 
+.arrow-download{
+    height: .7em;
+
+    margin-right: 8px;
+}
+
+.arrow-download.arrow-white{
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(85deg) brightness(105%) contrast(101%);
+}
+
 .box{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -50,6 +60,17 @@ button{
     margin-right: auto;
 }
 
+main div img.wave{
+    display: block;
+    width: 100%;
+    height: 90px;
+
+    filter: invert(100%) sepia(7%) saturate(45%) hue-rotate(315deg) brightness(113%) contrast(93%);
+}
+
+main div img.reverse{
+    transform: rotate(180deg);
+}
 
 /* start nav bar */
 nav{
@@ -145,10 +166,6 @@ p{
     font-size: 1.2em;
     line-height: 1.4em;
 }
-
-span{
-    padding-right: 8px;
-}
 /* end header */
 
 /* start main */
@@ -176,6 +193,15 @@ h2{
     margin-bottom: 36px;
 
     font-size: 3em;
+}
+
+.main-text-right{
+    padding: 0px 0px 0px 250px;
+}
+
+
+.main-text-left{
+    padding: 0px 250px 0px 0px;
 }
 
 div.reverse{
@@ -271,6 +297,8 @@ h4{
 .arrow{
     width: 13px;
     height: 13px;
+
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(85deg) brightness(105%) contrast(101%);
 }
 
 .mini-svg{
@@ -279,7 +307,7 @@ h4{
 
     margin: 25px 25px 0px 0px;
 
-    fill: white;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(85deg) brightness(105%) contrast(101%);
 }
 
 .footer-box ul li{
